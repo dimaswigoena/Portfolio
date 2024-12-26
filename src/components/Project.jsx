@@ -1,4 +1,8 @@
 import React from "react";
+import MINIPOS from "../assets/minipos.png";
+import SAKULAUNDRY from "../assets/laundry.png";
+import SIPAS from "../assets/sipas.png";
+import logoGithub from "../assets/Github.png";
 
 function Project() {
   return (
@@ -15,7 +19,7 @@ function Project() {
             <div class="border border-red-500 rounded-lg w-[350px] lg:w-[400px] bg-red-50 h-full border-opacity-60 overflow-hidden">
               <img
                 class="lg:h-48 md:h-36 w-full object-cover object-center"
-                src="../src/assets/minipos.png"
+                src={MINIPOS}
                 alt=""
               />
               <div class="p-6">
@@ -37,11 +41,7 @@ function Project() {
                       target="_blank"
                       className="flex gap-1"
                     >
-                      <img
-                        src="../src/assets/Github.png"
-                        alt=""
-                        className="w-6"
-                      />
+                      <img src={logoGithub} alt="" className="w-6" />
                       Github Link
                     </a>
                   </button>
@@ -56,7 +56,7 @@ function Project() {
             <div class="border border-red-500 rounded-lg w-[350px] lg:w-[400px] bg-red-50 h-full border-opacity-60 overflow-hidden">
               <img
                 class="lg:h-48 md:h-36 w-full object-cover object-center"
-                src="../src/assets/laundry.png"
+                src={SAKULAUNDRY}
                 alt=""
               />
               <div class="p-6">
@@ -78,11 +78,7 @@ function Project() {
                       target="_blank"
                       className="flex gap-1"
                     >
-                      <img
-                        src="../src/assets/Github.png"
-                        alt=""
-                        className="w-6"
-                      />
+                      <img src={logoGithub} alt="" className="w-6" />
                       Github Link
                     </a>
                   </button>
@@ -97,7 +93,7 @@ function Project() {
             <div class="border border-red-500 rounded-lg w-[350px] lg:w-[400px] bg-red-50 h-full border-opacity-60 overflow-hidden">
               <img
                 class="lg:h-48 md:h-36 w-full object-cover object-center"
-                src="../src/assets/sipas.png"
+                src={SIPAS}
                 alt=""
               />
               <div class="p-6">
@@ -119,11 +115,7 @@ function Project() {
                       target="_blank"
                       className="flex gap-1"
                     >
-                      <img
-                        src="../src/assets/Github.png"
-                        alt=""
-                        className="w-6"
-                      />
+                      <img src={logoGithub} alt="" className="w-6" />
                       Github Link
                     </a>
                   </button>

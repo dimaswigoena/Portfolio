@@ -1,4 +1,17 @@
 import React from "react";
+import logoBootstrap from "../assets/Bootstrap.png";
+import logoCodeigniter from "../assets/codeigniter.png";
+import logoCSS from "../assets/CSS.png";
+import logoHtml from "../assets/Html.png";
+import logoJavascript from "../assets/JS.png";
+import logoLaravel from "../assets/Laravel.png";
+import logoMysql from "../assets/mysql.png";
+import logoPhp from "../assets/php.png";
+import logoPython from "../assets/python.png";
+import logoReact from "../assets/react.png";
+import logoTailwind from "../assets/tailwind.png";
+import logoVb from "../assets/vb.png";
+import logoVisualStudio from "../assets/visual studio.png";
 
 const About = () => {
   return (
@@ -26,31 +39,27 @@ const About = () => {
                 </h3>
                 <div className="flex items-center justify-center flex-wrap gap-3">
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img src="../src/assets/vb.png" alt="" className="w-10" />
+                    <img src={logoVb} alt="" className="w-10" />
                     <span className="font-semibold">VB .Net</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img src="../src/assets/Html.png" alt="" className="w-10" />
+                    <img src={logoHtml} alt="" className="w-10" />
                     <span className="font-semibold">HTML</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img src="../src/assets/CSS.png" alt="" className="w-8" />
+                    <img src={logoCSS} alt="" className="w-8" />
                     <span className="font-semibold">CSS</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img src="../src/assets/JS.png" alt="" className="w-10" />
+                    <img src={logoJavascript} alt="" className="w-10" />
                     <span className="font-semibold">Javascript</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img src="../src/assets/php.png" alt="" className="w-10" />
+                    <img src={logoPhp} alt="" className="w-10" />
                     <span className="font-semibold">PHP</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img
-                      src="../src/assets/python.png"
-                      alt=""
-                      className="w-10"
-                    />
+                    <img src={logoPython} alt="" className="w-10" />
                     <span className="font-semibold">Python</span>
                   </div>
                 </div>
@@ -63,43 +72,23 @@ const About = () => {
                 </h3>
                 <div className="flex items-center justify-center flex-wrap gap-3">
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img
-                      src="../src/assets/codeigniter.png"
-                      alt=""
-                      className="w-10"
-                    />
+                    <img src={logoCodeigniter} alt="" className="w-10" />
                     <span className="font-semibold">Codeigniter</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img
-                      src="../src/assets/Laravel.png"
-                      alt=""
-                      className="w-8"
-                    />
+                    <img src={logoLaravel} alt="" className="w-8" />
                     <span className="font-semibold">Laravel</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img
-                      src="../src/assets/tailwind.png"
-                      alt=""
-                      className="w-10"
-                    />
+                    <img src={logoTailwind} alt="" className="w-10" />
                     <span className="font-semibold">Tailwind</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img
-                      src="../src/assets/Bootstrap.png"
-                      alt=""
-                      className="w-10"
-                    />
+                    <img src={logoBootstrap} alt="" className="w-10" />
                     <span className="font-semibold">Bootstrap</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img
-                      src="../src/assets/react.png"
-                      alt=""
-                      className="w-10"
-                    />
+                    <img src={logoReact} alt="" className="w-10" />
                     <span className="font-semibold">React</span>
                   </div>
                 </div>
@@ -112,11 +101,7 @@ const About = () => {
                 </h3>
                 <div className="flex items-center justify-center flex-wrap gap-3">
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img
-                      src="../src/assets/mysql.png"
-                      alt=""
-                      className="w-10"
-                    />
+                    <img src={logoMysql} alt="" className="w-10" />
                     <span className="font-semibold">MySQL</span>
                   </div>
                 </div>
@@ -127,11 +112,7 @@ const About = () => {
                 <h3 className="text-2xl font-semibold text-red-600">Tools</h3>
                 <div className="flex items-center justify-center flex-wrap gap-3">
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                    <img
-                      src="../src/assets/visual studio.png"
-                      alt=""
-                      className="w-10"
-                    />
+                    <img src={logoVisualStudio} alt="" className="w-10" />
                     <span className="font-semibold">Visual Studio</span>
                   </div>
                 </div>
